@@ -1,5 +1,17 @@
+# Entornos virtuales y caché de Python
+venv/
 __pycache__/
 *.py[cod]
-venv/
+
+# Carpeta de prácticas locales (NO se sube a GitHub)
+practicas/
+
+# Archivos de datos pesados
+data/
+*.csv
+*.parquet
+*.json
+
+# Archivos de configuración local y claves (API Keys)
 .env
-data/*.csv
+*.log
